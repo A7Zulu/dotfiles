@@ -21,5 +21,27 @@
         <only>EXCEL</only>
         <autogen>__KeyToKey__ KeyCode::U, ModifierFlag::CONTROL_L, KeyCode::U, ModifierFlag::COMMAND_L</autogen>
     </item>
+    <item>
+        <name>Excel Hacks (effective only on Excel)</name>
+        <appendix>Change Ctrl+1 to Command+1</appendix>
+        <identifier>private.app_excel_ctrl1_to_command1</identifier>
+        <only>EXCEL</only>
+        <autogen>__KeyToKey__ KeyCode::KEY_1, ModifierFlag::CONTROL_L, KeyCode::KEY_1, ModifierFlag::COMMAND_L</autogen>
+    </item>
+    <item>
+        <name>Excel Hacks (effective only on Excel)</name>
+        <appendix>Alt+E+S (paste special)</appendix>
+        <identifier>private.app_excel_alt_e_s</identifier>
+        <only>EXCEL</only>
+        <autogen>__KeyToKey__ KeyCode::E, KeyCode::S, ModifierFlag::OPTION_L, KeyCode::V, ModifierFlag::COMMAND_L | ModifierFlag::CONTROL_L</autogen>
+    </item>
+    <item>
+        <name>Excel Hacks (effective only on Excel)</name>
+        <appendix>Alt+F+A (save as)</appendix>
+        <identifier>private.app_excel_alt_f_a</identifier>
+        <only>EXCEL</only>
+        <autogen>__KeyToKey__ KeyCode::F, KeyCode::A, ModifierFlag::OPTION_L, KeyCode::S, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L</autogen>
+    </item>
+    
     
 </root>
