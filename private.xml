@@ -42,6 +42,13 @@
         <only>EXCEL</only>
         <autogen>__KeyToKey__ KeyCode::F, KeyCode::A, ModifierFlag::OPTION_L, KeyCode::S, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L</autogen>
     </item>
+    <item>
+        <name>Excel Hacks (effective only on Excel)</name>
+        <appendix>Change Command + + to Command+Shift+T (auto-sum)</appendix>
+        <identifier>private.app_excel_commandplus_to_command_shift_t</identifier>
+        <only>EXCEL</only>
+        <autogen>__KeyToKey__ KeyCode::EQUAL, ModifierFlag::COMMAND_L, KeyCode::T, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L</autogen>
+    </item>
     
     
 </root>
