@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<root>
+    <item>
+        <name>Excel Hacks (effective only on Excel)</name>
+        <appendix>Change Ctrl+B to Command+B</appendix>
+        <identifier>private.app_excel_ctrlb_to_commandb</identifier>
+        <only>EXCEL</only>
+        <autogen>__KeyToKey__ KeyCode::B, ModifierFlag::CONTROL_L, KeyCode::B, ModifierFlag::COMMAND_L</autogen>
+    </item>
+    <item>
+        <name>Excel Hacks (effective only on Excel)</name>
+        <appendix>Change Ctrl+I to Command+I</appendix>
+        <identifier>private.app_excel_ctrli_to_commandi</identifier>
+        <only>EXCEL</only>
+        <autogen>__KeyToKey__ KeyCode::I, ModifierFlag::CONTROL_L, KeyCode::I, ModifierFlag::COMMAND_L</autogen>
+    </item>
+    <item>
+        <name>Excel Hacks (effective only on Excel)</name>
+        <appendix>Change Ctrl+U to Command+U</appendix>
+        <identifier>private.app_excel_ctrlu_to_commandu</identifier>
+        <only>EXCEL</only>
+        <autogen>__KeyToKey__ KeyCode::U, ModifierFlag::CONTROL_L, KeyCode::U, ModifierFlag::COMMAND_L</autogen>
+    </item>
+    
+</root>
