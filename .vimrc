@@ -10,7 +10,8 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set nu
 
-set color torte
+set background=dark
+colorscheme torte
 
 " Use spaces instead of tabs
 set expandtab
