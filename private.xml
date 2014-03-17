@@ -1,45 +1,38 @@
 <?xml version="1.0"?>
 <root>
     <item>
-        <name>Excel Hacks (effective only on Excel)</name>
+        <name>Office Hacks (effective only on MS Office)</name>
         <appendix>Change Ctrl+B to Command+B</appendix>
         <identifier>private.app_excel_ctrlb_to_commandb</identifier>
-        <only>EXCEL</only>
+        <only>EXCEL, WORD, POWERPOINT, OUTLOOK</only>
         <autogen>__KeyToKey__ KeyCode::B, ModifierFlag::CONTROL_L, KeyCode::B, ModifierFlag::COMMAND_L</autogen>
     </item>
     <item>
-        <name>Excel Hacks (effective only on Excel)</name>
+        <name>Office Hacks (effective only on MS OFfice)</name>
         <appendix>Change Ctrl+I to Command+I</appendix>
         <identifier>private.app_excel_ctrli_to_commandi</identifier>
-        <only>EXCEL</only>
+        <only>EXCEL, WORD, POWERPOINT, OUTLOOK</only>
         <autogen>__KeyToKey__ KeyCode::I, ModifierFlag::CONTROL_L, KeyCode::I, ModifierFlag::COMMAND_L</autogen>
     </item>
     <item>
-        <name>Excel Hacks (effective only on Excel)</name>
+        <name>Office Hacks (effective only on MS Office)</name>
         <appendix>Change Ctrl+U to Command+U</appendix>
         <identifier>private.app_excel_ctrlu_to_commandu</identifier>
-        <only>EXCEL</only>
+        <only>EXCEL, WORD, POWERPOINT, OUTLOOK</only>
         <autogen>__KeyToKey__ KeyCode::U, ModifierFlag::CONTROL_L, KeyCode::U, ModifierFlag::COMMAND_L</autogen>
     </item>
     <item>
-        <name>Excel Hacks (effective only on Excel)</name>
-        <appendix>Change Ctrl+1 to Command+1</appendix>
-        <identifier>private.app_excel_ctrl1_to_command1</identifier>
-        <only>EXCEL</only>
-        <autogen>__KeyToKey__ KeyCode::KEY_1, ModifierFlag::CONTROL_L, KeyCode::KEY_1, ModifierFlag::COMMAND_L</autogen>
-    </item>
-    <item>
-        <name>Excel Hacks (effective only on Excel)</name>
+        <name>Office Hacks (effective only on MS Office)</name>
         <appendix>Alt+E+S (paste special)</appendix>
         <identifier>private.app_excel_alt_e_s</identifier>
-        <only>EXCEL</only>
+        <only>EXCEL, WORD, POWERPOINT, OUTLOOK</only>
         <autogen>__KeyToKey__ KeyCode::E, KeyCode::S, ModifierFlag::OPTION_L, KeyCode::V, ModifierFlag::COMMAND_L | ModifierFlag::CONTROL_L</autogen>
     </item>
     <item>
-        <name>Excel Hacks (effective only on Excel)</name>
+        <name>Office Hacks (effective only on MS Office)</name>
         <appendix>Alt+F+A (save as)</appendix>
         <identifier>private.app_excel_alt_f_a</identifier>
-        <only>EXCEL</only>
+        <only>EXCEL, WORD, POWERPOINT, OUTLOOK</only>
         <autogen>__KeyToKey__ KeyCode::F, KeyCode::A, ModifierFlag::OPTION_L, KeyCode::S, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L</autogen>
     </item>
     <item>
@@ -48,6 +41,13 @@
         <identifier>private.app_excel_commandplus_to_command_shift_t</identifier>
         <only>EXCEL</only>
         <autogen>__KeyToKey__ KeyCode::EQUAL, ModifierFlag::COMMAND_L, KeyCode::T, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L</autogen>
+    </item>
+    <item>
+        <name>Excel Hacks (effective only on Excel)</name>
+        <appendix>Change Ctrl+1 to Command+1</appendix>
+        <identifier>private.app_excel_ctrl1_to_command1</identifier>
+        <only>EXCEL</only>
+        <autogen>__KeyToKey__ KeyCode::KEY_1, ModifierFlag::CONTROL_L, KeyCode::KEY_1, ModifierFlag::COMMAND_L</autogen>
     </item>
     
     
